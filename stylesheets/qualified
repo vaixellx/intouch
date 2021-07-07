@@ -1,0 +1,3 @@
+a.work-list-item {
+  color: inherit;
+  text-decoration: none; }

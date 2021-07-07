@@ -1,0 +1,26 @@
+body.recent-work .education-title-bar {
+  background: linear-gradient(90deg, #73A434 0%, #CADB2F 100%);
+  border-radius: 0.25rem;
+  color: white; }
+
+body.recent-work .glightbox-clean .gslide-image img {
+  min-height: 85vh; }
+
+body.recent-work .glightbox-clean .gslide-desc {
+  font-family: 'Prompt';
+  font-size: inherit; }
+
+body.recent-work .glightbox-clean .gslide-description {
+  border-radius: 0 0.25rem 0.25rem 0;
+  max-width: 450px; }
+  body.recent-work .glightbox-clean .gslide-description .gdesc-inner {
+    width: 100%; }
+
+body.recent-work.glightbox-mobile .gslide-image img {
+  min-height: auto; }
+
+body.recent-work.glightbox-mobile .glightbox-container .gslide-desc .desc-more {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 1.5rem;
+  opacity: 1;
+  padding: 0.25rem 1rem; }

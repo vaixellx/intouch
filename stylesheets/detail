@@ -1,0 +1,7 @@
+.side-nav {
+  position: sticky;
+  top: 86px; }
+  .side-nav .nav-link {
+    color: #b2b4b2; }
+    .side-nav .nav-link.active {
+      color: #333533; }

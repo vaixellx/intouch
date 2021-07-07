@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap");
+a.article {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none; }
+
+.article-content {
+  line-height: 1.5;
+  font-family: Sarabun, Eventpop, Arial;
+  font-size: 16px; }
+  .article-content h1, .article-content h2, .article-content h3, .article-content h4, .article-content h5, .article-content b, .article-content strong {
+    font-weight: 700;
+    line-height: 1.5; }
+
+.article-square-thumbnail {
+  background-repeat: none;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 0.5rem;
+  width: 100%;
+  padding-bottom: 100%; }
+
+.article-compact-title {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  height: 4.5em;
+  overflow: hidden; }

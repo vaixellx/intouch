@@ -1,0 +1,111 @@
+body.index .home-section {
+  padding-bottom: 6rem; }
+
+body.index .hero-slick .slick-slide-item.welcome-hero {
+  background-image: url("/images/hero/1/kv-252373c7.png"), url("/images/hero/1/bg-mobile-1611227a.png");
+  background-size: 45%, cover;
+  background-repeat: no-repeat;
+  background-position: bottom right, bottom right;
+  position: relative; }
+  body.index .hero-slick .slick-slide-item.welcome-hero .hero-content {
+    padding: 2rem 1.5rem; }
+  body.index .hero-slick .slick-slide-item.welcome-hero .btn-regis img, body.index .hero-slick .slick-slide-item.welcome-hero .btn-detail img {
+    filter: brightness(115%);
+    transition: all .3s; }
+  body.index .hero-slick .slick-slide-item.welcome-hero .btn-regis:hover, body.index .hero-slick .slick-slide-item.welcome-hero .btn-detail:hover {
+    text-decoration: none; }
+    body.index .hero-slick .slick-slide-item.welcome-hero .btn-regis:hover img, body.index .hero-slick .slick-slide-item.welcome-hero .btn-detail:hover img {
+      filter: brightness(95%); }
+
+@media (max-width: 575px) {
+  body.index .hero-slick .slick-slide-item {
+    height: 550px; }
+    body.index .hero-slick .slick-slide-item.welcome-hero .hero-content {
+      font-size: 0.8rem; } }
+
+@media (min-width: 576px) {
+  body.index .hero-slick .slick-slide-item {
+    height: 550px; }
+    body.index .hero-slick .slick-slide-item.welcome-hero {
+      background-size: 38%, cover;
+      padding-left: 5%; } }
+
+@media (min-width: 769px) {
+  body.index .hero-slick .slick-slide-item.welcome-hero {
+    background-image: url("/images/hero/1/kv-252373c7.png"), url("/images/hero/1/bg-desktop-b0f7c5cc.png");
+    background-size: 35%, cover; }
+    body.index .hero-slick .slick-slide-item.welcome-hero .hero-content {
+      padding-top: 4rem; }
+    body.index .hero-slick .slick-slide-item.welcome-hero .btn-regis img, body.index .hero-slick .slick-slide-item.welcome-hero .btn-detail img {
+      display: inline; } }
+
+@media (min-width: 992px) {
+  body.index .hero-slick .slick-slide-item {
+    height: 550px; }
+    body.index .hero-slick .slick-slide-item.welcome-hero .hero-content {
+      text-align: center;
+      width: 70%;
+      padding-left: 0; } }
+
+@media (min-width: 1200px) {
+  body.index .hero-slick .slick-slide-item {
+    height: 560px; }
+    body.index .hero-slick .slick-slide-item.welcome-hero .hero-content {
+      font-size: 1.25rem;
+      width: 60%; } }
+
+body.index #main-theme {
+  background-image: url("/images/home/main-theme-397857cc.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  position: relative; }
+
+body.index #join-group {
+  background-image: url("/images/home/social-banner-11189c4c.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+body.index #quotes img {
+  max-width: 350px; }
+
+body.index #quotes .carousel-indicators {
+  bottom: 0; }
+
+body.index #quotes .carousel-item {
+  min-height: 420px; }
+  @media (max-width: 576px) {
+    body.index #quotes .carousel-item {
+      min-height: 650px; } }
+body.index .awarded-slick {
+  box-shadow: 0 0 1rem #0002;
+  background-color: #fff; }
+
+body.index .awarded-slick-item {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 0.5rem;
+  padding-bottom: 75%; }
+
+body.index .how-to-card {
+  box-shadow: 0 0.5rem 1rem #0002;
+  border-radius: 2rem;
+  padding: 1.5rem; }
+  @media screen and (min-width: 992px) {
+    body.index .how-to-card {
+      min-height: 350px; }
+      body.index .how-to-card.how-to-artist {
+        background-image: url("/images/how-to/how-to_artist-162f28ff.png");
+        background-repeat: no-repeat;
+        background-size: auto 95%;
+        background-position: left bottom;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center; }
+        body.index .how-to-card.how-to-artist .how-to-content {
+          height: auto;
+          width: 240px; } }
+  @media screen and (min-width: 1200px) {
+    body.index .how-to-card {
+      min-height: 380px; } }
