@@ -54,6 +54,42 @@ body.index .hero-slick .slick-slide-item.welcome-hero {
       font-size: 1.25rem;
       width: 60%; } }
 
+body.index .awarded-hero {
+  background-image: url("/images/hero/1/bg-mobile-1611227a.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  position: relative; }
+  body.index .awarded-hero .with-kv-background {
+    background-image: url("/images/hero/1/kv-trans-5fb269cd.png");
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: bottom right; }
+  body.index .awarded-hero .btn-orange {
+    background-color: #D3602B;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.5rem 1.5rem; }
+    body.index .awarded-hero .btn-orange:hover {
+      color: #fff; }
+  @media (max-width: 575px) {
+    body.index .awarded-hero .with-kv-background {
+      background-size: 60%; } }
+  @media (min-width: 992px) {
+    body.index .awarded-hero {
+      background-image: url("/images/hero/1/bg-desktop-b0f7c5cc.png");
+      height: 550px; }
+      body.index .awarded-hero .awarded-hero-content {
+        margin: 0 auto;
+        max-width: 960px; }
+      body.index .awarded-hero .with-kv-background {
+        background-size: 50%;
+        height: 550px; } }
+  @media (min-width: 1200px) {
+    body.index .awarded-hero .awarded-hero-content {
+      max-width: 1140px; } }
 body.index #main-theme {
   background-image: url("/images/home/main-theme-397857cc.png");
   background-repeat: no-repeat;
