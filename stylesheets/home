@@ -113,10 +113,6 @@ body.index #quotes .carousel-item {
   @media (max-width: 576px) {
     body.index #quotes .carousel-item {
       min-height: 650px; } }
-body.index .awarded-slick {
-  box-shadow: 0 0 1rem #0002;
-  background-color: #fff; }
-
 body.index .awarded-slick-item {
   background-size: contain;
   background-repeat: no-repeat;
